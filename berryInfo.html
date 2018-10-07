@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title> Bun Bun Bake Shop </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/berryInfo.css"/>
+    <script src="js/productPage.js"></script>   
+
+</head>
+
+<body>
+    <div class="menu" id="Menu">
+        <div style="float:left">
+            <img src="images/bunLogo.jpg" alt="Logo" height="48" width="auto"/>
+            <div class="brand-name">Bun Bun Bake Shop</div>
+        </div>
+        
+        <div class="menu-items" style="float:right">
+            <a href="index.html">HOME</a>
+            <a href="#news">SIGN UP</a>
+            <a href="#contact">LOGIN</a>
+        </div>
+    </div>
+    <div class="container-heading">
+        <div class="page-name">Berry Cinnamon Roll</div>
+        <div class="page-name" style="color: green;">$3.50</div>
+        <div class="container-menu-items menu-items">
+            <a href="#quickbuy">QUICK BUY</a>
+            <a href="#cart">CART</a>
+            <a href="#loggedout">LOGOUT</a>
+        </div>
+    </div>
+    <br/>
+    <div class="mainBody">
+        <div class="mainDetail">
+            <div class="details1">
+                <div class="imgg">
+                    <img src="images/Berry.jpg" alt="Bun-Image" height="250px" width="400px"/>
+                </div>
+            <div class="info">
+                The Berry Cinnamon Roll is an exquisite product that contains the goodness of blueberries and raspberries blended in together with rich chunks of cashews and peanuts.
+            </div>
+            </div>
+            <div class="details2">
+                <div class="Calorie">
+                    <div class="Cal-title">
+                        Calorie Content
+                    </div>
+                    <div class="Cal-val">
+                        250 CALORIES/PC
+                    </div>
+                </div>
+                <div class="Ingredients">
+                    <div class="Ing-title">
+                        Ingredients
+                    </div>
+                    <div class="Ing-val">
+                        1. Blueberries<br>
+                        2. Raspberries<br>
+                        3. Cashews<br>
+                        4. Bread<br>
+                    </div>
+                </div>
+                <div class="cb-quant">
+                    <div class="cbq-buttons">
+                        <div id="sub2" class="cbq-sub">-</div>
+                        <div id="quant2" class="cbq-number">1</div>
+                        <div id="add2" class="cbq-add">+</div>    
+                    </div>
+                    <div id="bun2" class="cbq-select">Select</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="glaze" style="visibility: hidden;" class="glazings">
+            <div class="glazing-head">
+                <div class="glazing-data">
+                    Choose Glazing
+                </div>
+                <div class="glazing-data" style="color: green">
+                    $0.50/PC
+                </div>
+            </div>
+            <div class="glazing-choices">
+                <form>
+                    <span class="space">1. Sugar Milk</span><input type="checkbox" name="SugarMilk" style="float:right" value="Sugar Milk"><br/><br/>
+                    <span class="space">2. Vanilla Milk</span><input type="checkbox" name="VanillaMilk" style="float:right" value="Vanilla Milk"><br/><br/>
+                    <span class="space">3. Double Chocolate</span><input type="checkbox" name="DoubleChocolate" style="float:right" value="Double Chocolate"><br/><br/>
+                    <span class="space">4. None</span><input type="checkbox" name="None" style="float:right" value="None" checked><br/><br/>
+                    <input class="cbq-select" style="margin: auto;" id="submit" type="submit" value="ADD TO CART">
+                    <div id="backBt" class="cbq-back">
+                        <div>BACK</div>    
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <button class="footerbtn">EVENTS</button>
+            <button class="footerbtn">ABOUT</button>
+            <button class="footerbtn">CONTACT</button>
+    </div>
+    <script>loadPage();</script>   
+</body>
+
+</html>

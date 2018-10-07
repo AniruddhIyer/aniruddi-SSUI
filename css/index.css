@@ -1,0 +1,130 @@
+body {
+    background-color: #F5F4CC;
+    font-family: 'Lato', sans-serif;
+}
+.menu {
+    list-style-type: none;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #EFDEB2;
+    border: 1px solid #767D7C;
+    vertical-align: middle;
+}
+
+.brand-name {
+    color: #767D7C;
+    border: none;
+    background-color: #EFDEB2;
+    text-align: center;
+    padding: 0 5px;
+    font-size: 38px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 48px;
+}
+
+.menu img {
+    display: inline-block;
+    height: 48px;
+    vertical-align: middle;
+}
+
+.menu-items a{
+    display: inline-block;
+    color: white;
+    background-color: #F29A0B;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #767D7C;
+    margin-left: 8px;
+    line-height: 36px;
+    height: 48px;
+    min-width: 100px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.menu-items a:hover {
+    background-color: #BA770A;
+    color: black;
+}
+
+.topText1 {
+    font-size: 28px;
+    color: #767D7C;
+}
+
+.topText2 {
+    font-size: 22px;
+    color: #767D7C;
+}
+
+.btn1 {
+    float: right;
+    font-size: 22px;
+    border-radius: 12px;
+    padding: 13px 20px;
+    background-color: #F29A0B;
+    color: #767D7C;
+}
+
+.btn1:hover {
+    background-color: #BA770A;
+    color: black;
+}
+
+.btn2 {
+    float: left;
+    font-size: 22px;
+    border-radius: 12px;
+    padding: 13px 20px;
+    background-color: #F29A0B;
+    color: #767D7C;
+    margin-left: 80px;
+
+}
+
+.btn2:hover {
+    background-color: #BA770A;
+    color: black;
+}
+
+#FirstRow {
+    margin-top: 20px;
+}
+
+#SecondRow {
+    padding-top: 10px;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #EFDEB2;
+    color: #767D7C;
+    text-align: center;
+}
+
+.footerbtn {
+    float: center;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 1px 20px;
+    background-color: #F29A0B;
+    color: #767D7C;
+}
+
+.footerbtn:hover {
+    background-color: #BA770A;
+    color: black;
+}
